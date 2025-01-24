@@ -1,0 +1,28 @@
+@import "../../variables.modules";
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.turquoise {
+  color: $turquoise;
+}
+
+.skills {
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+
+  li:nth-child(odd){
+    color: $blue;
+  }
+  
+  li:nth-child(even) {
+    color: $green;
+  }
+}
