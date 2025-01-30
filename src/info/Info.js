@@ -85,19 +85,22 @@ export const info = {
             title: "Hashing Algorithm",
             live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Manofward/lil_hash", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1 
+            image: mock1,
+            details: "This is a little C# hashing Algorithm tolearn the principle of password safety."
         },
         {
             title: "Text Editor",
             live: "",
             source: "https://github.com/Manofward/lil_Text",
-            image: mock2
+            image: mock2,
+            details: "This is just a lttle Text Editor for the creation of a UI."
         },
         {
             title: "HashDB Reimagined",
             live: "",
             source: "https://github.com/Manofward/HashDB_Reimagined",
-            image: mock2 // has to be changed
+            image: mock2, // has to be changed
+            details: "This Project is a Website in which i use the Hashing Algorithm from above with DuckDB and Blazor to show how the usage of a database could work."
         }
     ]
 }
