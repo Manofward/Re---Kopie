@@ -13,8 +13,8 @@ function PortfolioBlock(props) {
       <Box className='container' display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
          <Box component={'img'} src={image} alt={'mockup'}/>
          <h1 style={{fontSize: '2rem'}}>{title}</h1>
-         <Box maxWidth={'71%'} fontSize={'1rem'}>
-            <p>{details}</p>
+         <Box maxWidth={'71%'} fontSize={'1rem'} textAlign={'center'} paddingTop={'0.5rem'}>
+            <p style={{ overflowWrap: 'break-word' }}>{details}</p>
          </Box>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
