@@ -1,5 +1,5 @@
 // ALL of this pictures have to be changed
-import self from "../img/self.png"
+import self from "../img/placeholder_me.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 
