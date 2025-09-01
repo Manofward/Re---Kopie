@@ -1,5 +1,5 @@
 // ALL of this pictures have to be changed
-import self from "../img/placeholder_me.png"
+import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 
@@ -54,11 +54,11 @@ export const info = {
     ],
 
     // anpassen später
-    bio: "Hi I'm Janik, an apprentice at Berufsbildungswerk-Suedhessen gGmbH. I like dogs and programming in C#. I'm always happy to learn new things.",
+    bio: "Hi I'm Janik, an apprentice at Berufsbildungswerk-Suedhessen gGmbH. I like dogs and programming in C#. I'm always happy to learn new things. I work much with Cryptography and learn it many times.",
     skills:
         {
-            proficientWith: ['javascript', 'html5', 'css3', 'c', 'c#', 'git', 'github', 'gitlab', 'react', 'bootstrap', 'visual studio', 'microsoft office', 'visual studio code', ],
-            exposedTo: ['nodejs', 'python']  
+            proficientWith: ['javascript', 'html5', 'css3', 'c', 'c#', 'plsql', 'php', 'git', 'github', 'gitlab', 'react', 'duckdb', 'bootstrap', 'microsoft office', 'visual studio', 'visual studio code', 'oracle forms', 'super productivity'],
+            exposedTo: ['nodejs', 'python', 'docker']  
         },
         // anpassen später
     hobbies: [
