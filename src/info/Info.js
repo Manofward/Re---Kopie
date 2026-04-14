@@ -2,6 +2,7 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
+import mock3 from "../img/mock3.png"
 
 export let colors = ["rgb(218,211,216)", "rgb(166,104,255)"];
 
@@ -57,7 +58,7 @@ export const info = {
     bio: "Hi I'm Janik, an apprentice at Berufsbildungswerk-Suedhessen gGmbH. I like dogs and programming in C#. I'm always happy to learn new things. I work much with Cryptography and learn it many times.",
     skills:
         {
-            proficientWith: ['javascript', 'html5', 'css3', 'c', 'c#', 'plsql', 'php', 'git', 'github', 'gitlab', 'react', 'duckdb', 'bootstrap', 'microsoft office', 'visual studio', 'visual studio code', 'oracle forms', 'super productivity'],
+            proficientWith: ['javascript', 'html5', 'css3', 'c', 'c#', 'plsql', 'php', 'git', 'github', 'gitlab', 'react', 'duckdb', 'bootstrap', 'microsoft office', 'visual studio', 'visual studio code', 'oracle forms', 'super productivity', 'xml'],
             exposedTo: ['nodejs', 'python', 'docker']  
         },
         // anpassen später
@@ -101,6 +102,13 @@ export const info = {
             source: "https://github.com/Manofward/HashDB_Reimagined",
             image: mock2, // has to be changed
             details: "This Project is a Website in which i use the Hashing Algorithm from above with DuckDB and Blazor to show how the usage of a database could work."
+        },
+        {
+            title: "Digitale Wortkette",
+            live: "",
+            source: "https://github.com/Manofward/Re---Kopie",
+            image: mock3,
+            details: "This is a little Game that a colleague and me created for android smartphones with flutter in which you try to make a word list."
         }
     ]
 }
